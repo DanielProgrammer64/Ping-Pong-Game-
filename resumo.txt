@@ -1,0 +1,4 @@
+bom, o objetivo deste arquivo de resumo é informar sobre a criação de um projeto de ping pong básico
+usanso o básico de JavaScript e de suas capacidades
+
+° Vale mencionar que a construção deste projeto não é a mesma que é mostrada no guia.

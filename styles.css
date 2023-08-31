@@ -1,0 +1,13 @@
+/* vamos definir o reset, para zerar todas as margens, todas páginas e etc
+ pra isso vamos usar o valor universal dentro do */
+
+ *{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+ }
+
+ /* este pequeno código serve para ocupar literalmente toda a área da tela, tornando assim, o game em algo
+ um pouquinho mais estético e decorável */
+
+ 
