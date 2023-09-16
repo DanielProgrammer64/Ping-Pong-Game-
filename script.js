@@ -87,11 +87,10 @@ const RaqueteDireita = {
       this.y -= this.speed;
     }
     // devemos adaptar o código para que o Player tenha chance contra a máquina
-  
   },
 
-  __speedUp: function() {
-    this.speed += 1.5 // usamos essa medida reduzida para que o computador seja mais lento, tornando o jogo justo.   
+  __speedUp: function () {
+    this.speed += 1.5; // usamos essa medida reduzida para que o computador seja mais lento, tornando o jogo justo.
   },
 
   Draw: function () {
@@ -197,11 +196,11 @@ const Ball = {
   },
 
   _pointUp: function () {
-    this.__speedUp()
-    RaqueteDireita.__speedUp()
+    this.__speedUp();
+    RaqueteDireita.__speedUp();
 
-    this.x = campo.w / 2
-    this.y = campo.h / 2
+    this.x = campo.w / 2;
+    this.y = campo.h / 2;
   },
   _move: function () {
     // usamos isso para fazer a bola se mover ao longo do campo
